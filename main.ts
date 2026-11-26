@@ -10,7 +10,7 @@ const OUTPUT_FILE = "entry.txt";
 const CHAR_CAP = 60;
 const WORD_COUNT = 6;
 
-const ENTRY = "First paycheck: $0.00038. Framed it anyway.";
+const ENTRY = "Paid at last. Nobody to tell.";
 
 function reject(reason: string): never {
   console.error(`${OUTPUT_FILE} rejected: ${reason}`);
